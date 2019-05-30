@@ -1,0 +1,52 @@
+body {
+    background-color: #585858;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    max-width: 1000px;
+}
+
+h1 {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: Courier, monospace;
+    text-align: center;
+}
+
+mark {
+    font-family: monospace;
+    background-color: #414141;
+    color: inherit;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.update-status {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.update-status-description {
+    width: 85%;
+    text-align: center;
+    color: #fffedd;
+    margin: auto;
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.code-block {
+    color: rgb(224, 224, 224);
+    padding: 7px;
+    display: block;
+    border: 1px solid dimgray;
+    border-radius: 5px;
+    background-color: rgb(49, 49, 49);
+    overflow: auto;
+    white-space: nowrap;
+    max-height: 500px;
+}
